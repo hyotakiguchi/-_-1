@@ -26,6 +26,6 @@ $ echo 0 > /dev/myled0
 $sudo rmmod myled
 
 ---
->**Lチカさせてみた動画リンク**
+>**実際にLチカさせている様子(YouTube)**
 
 https://youtu.be/AULwmZY3fQk

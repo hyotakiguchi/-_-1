@@ -10,5 +10,8 @@ $sudo chmod666 /dev/myled0
 #LEDを光らせる
 $ echo 1 > /dev/myled0
 
-#LEDを消灯させる。
+#LEDを消灯させる
 $ echo 0 > /dev/myled0
+
+#ドライバを削除する
+$sudo rmmod myled

@@ -24,3 +24,8 @@ $ echo 0 > /dev/myled0
 >**ドライバを削除する**
 
 $sudo rmmod myled
+
+---
+>**Lチカさせてみた動画リンク**
+
+https://youtu.be/AULwmZY3fQk

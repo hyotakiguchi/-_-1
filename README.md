@@ -14,9 +14,9 @@ OSはUbuntu 18.04
 
 ・Raspberry Pi4
 
-・LED ×１
-
 ・ブレッドボード
+
+・LED ×１
 
 ・抵抗器(100Ω) ×１
 

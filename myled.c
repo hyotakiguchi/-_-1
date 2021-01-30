@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-only
+// SPDX-License-Ldentifier: GPL-3.0-only
 // Copyright (C) 2020 Hyo Takiguchi & Ryuichi Ueda. All rights reserved.
 
 #include <linux/module.h>
@@ -41,7 +41,7 @@ static struct file_operations led_fops = {
 static int __init init_mod(void)
 {
         int retval;
- 
+
         gpio_base = ioremap_nocache(0xfe200000, 0xA0);
 
         const u32 led = 25;

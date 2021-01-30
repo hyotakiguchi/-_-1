@@ -1,17 +1,31 @@
->**説明**
-ただ赤いLEDを光らせるだけのデバイスドライバーです。
+>**ロボットシステム学_課題１**
 ---
->**実行する方法**
-・以下を入力する。
+>**概要**
+1を入力するとLEDが点灯、0を入力すると消灯するプログラム。
+---
+>**動作環境**
+OSはUbuntu 18.04
+---
+>**使用したもの**
+*Raspberry Pi4
+*LED ×１
+*ブレッドボード
+*抵抗器(100Ω) ×１
+*ジャンパー線　×４
+---
+>**実行手順**
+順番に以下のコマンドを入力する。
 
-$ make
+$ git clone https://github.com/hyotakiguchi/-_-1.git
 
-$sudo insnod myled.ko
+$cd myled
+
+$sudo insmod myled.ko
 
 $sudo chmod666 /dev/myled0
 
 ---
->**LEDを光らせる**
+>**LEDを点灯させる**
 
 $ echo 1 > /dev/myled0
 
@@ -21,7 +35,7 @@ $ echo 1 > /dev/myled0
 $ echo 0 > /dev/myled0
 
 ---
->**ドライバを削除する**
+>**もう実行しないなら**
 
 $sudo rmmod myled
 
@@ -29,3 +43,8 @@ $sudo rmmod myled
 >**実際にLチカさせている様子(YouTube)**
 
 https://youtu.be/AULwmZY3fQk
+
+>**ライセンス**
+このリポジトリには以下のライセンスが付与されています。
+
+GNU General Public License v3.0

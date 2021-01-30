@@ -34,7 +34,7 @@ $cd myled
 
 $sudo insmod myled.ko
 
-$sudo chmod666 /dev/myled0
+$sudo chmod 666 /dev/myled0
 
 ---
 >**LEDを点灯させる**

@@ -1,10 +1,14 @@
 >**ロボットシステム学_課題１**
 ---
 >**概要**
+
 1を入力するとLEDが点灯、0を入力すると消灯するプログラム。
+
 ---
 >**動作環境**
+
 OSはUbuntu 18.04
+
 ---
 >**使用したもの**
 *Raspberry Pi4
@@ -14,6 +18,7 @@ OSはUbuntu 18.04
 *ジャンパー線　×４
 ---
 >**実行手順**
+
 順番に以下のコマンドを入力する。
 
 $ git clone https://github.com/hyotakiguchi/-_-1.git
@@ -35,6 +40,7 @@ $ echo 1 > /dev/myled0
 $ echo 0 > /dev/myled0
 
 ---
+
 >**もう実行しないなら**
 
 $sudo rmmod myled
@@ -45,6 +51,7 @@ $sudo rmmod myled
 https://youtu.be/AULwmZY3fQk
 
 >**ライセンス**
+
 このリポジトリには以下のライセンスが付与されています。
 
 GNU General Public License v3.0

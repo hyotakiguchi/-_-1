@@ -32,6 +32,8 @@ $ git clone https://github.com/hyotakiguchi/robosys_homework1.git
 
 $cd myled
 
+$make
+
 $sudo insmod myled.ko
 
 $sudo chmod 666 /dev/myled0

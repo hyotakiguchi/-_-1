@@ -28,7 +28,7 @@ OSはUbuntu 18.04
 
 順番に以下のコマンドを入力する。
 
-$ git clone https://github.com/hyotakiguchi/-_-1.git
+$ git clone https://github.com/hyotakiguchi/robosys_homework1.git
 
 $cd myled
 

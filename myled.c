@@ -41,7 +41,7 @@ static struct file_operations led_fops = {
 static int __init init_mod(void)
 {
         int retval;
-
+        
         gpio_base = ioremap_nocache(0xfe200000, 0xA0);
 
         const u32 led = 25;
@@ -49,9 +49,9 @@ static int __init init_mod(void)
         const u32 shift = (led%10)*3;
         const u32 mask = ~(0x7 << shift);
         gpio_base[index] = (gpio_base[index] & mask) | (0x1 << shift);
-
-
-
+        
+        
+        
         retval = alloc_chrdev_region(&dev, 0, 1, "myled");
         if(retval < 0){
                 printk(KERN_ERR "alloc_chrdev_region failed.\n");

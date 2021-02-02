@@ -30,7 +30,7 @@ OSはUbuntu 18.04
 
 $git clone https://github.com/hyotakiguchi/robosys_homework1.git
 
-$cd myled
+$cd robosys_homework1
 
 $make
 
